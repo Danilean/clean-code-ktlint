@@ -26,24 +26,17 @@
 Antes de instalar e usar o Ktlint, verifique se você possui os seguintes pré-requisitos no seu ambiente:
 
 - **Java 17** ou superior instalado.
-- **Gradle** configurado no projeto (O wrapper do Gradle já está incluso no repositório, portanto não é necessário instalar o Gradle manualmente).
+- **Gradle** (via Gradle Wrapper ou instalação global)
 
 ### Configuração Inicial
 
-1. Clone o repositório e navegue até a pasta do projeto:
-
-    ```bash
-    git clone https://github.com/seu-usuario/clean-code-ktlint.git
-    cd clean-code-ktlint
-    ```
-
-2. Execute o comando para baixar as dependências:
-
-    ```bash
-    ./gradlew build
-    ```
-
-No arquivo `build.gradle.kts`, o **plugin Ktlint** já está configurado, o que garante que ele será integrado ao seu projeto Kotlin e será executado via Gradle.
+#### Dentro do seu projeto, você precisa Adicionar o Plugin Ktlint no arquivo `build.gradle.kts`
+    
+```kotlin
+plugins { 
+    id("org.jlleitschuh.gradle.ktlint") version "12.1.0"
+}
+```
 
 ### Verificação e Formatação
 
