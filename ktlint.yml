@@ -1,0 +1,9 @@
+indentation:
+  indent-size: 4
+  continuation-indent-size: 4
+
+max_line_length:
+  active: true
+  value: 120
+
+no-trailing-spaces: true
