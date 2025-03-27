@@ -101,6 +101,5 @@ fun soma(a: Int, b: Int): Int {
     return a + b
 }
 ```
-
 ## 📜 Conclusão
 O Ktlint é uma ferramenta essencial para desenvolvedores Kotlin que buscam garantir que seu código siga boas práticas de formatação e seja livre de erros comuns. A integração do Ktlint ao seu projeto com Gradle é simples e eficiente, e ele oferece uma maneira prática de manter a consistência no código ao longo do desenvolvimento.
