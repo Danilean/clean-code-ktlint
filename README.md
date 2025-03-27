@@ -67,21 +67,25 @@ O Ktlint permite que o código seja **automaticamente estilizado** de acordo com
 O Ktlint pode ser configurado por meio de um arquivo **`ktlint.yml`**, onde você define as regras de formatação que deseja aplicar. Aqui está um exemplo de configuração para a **indentação** e **comprimento máximo das linhas**:
 
 ```yaml
+# Define a indentação do código, usando 4 espaços para cada nível de indentação.
 indentation:
   indent-size: 4
   continuation-indent-size: 4
 
+# Limita o comprimento máximo das linhas para 120 caracteres.
 max_line_length:
   active: true
   value: 120
 
+# Proíbe o uso de imports com `*`, exigindo a especificação explícita dos imports.
 no-wildcard-imports:
   active: true
 
+# Exige que cada arquivo Kotlin termine com uma linha em branco.
 final-newline:
   active: true
+
 ```
-![img.png](img.png)
 
 ## 💻 Exemplo de Código a Ser Estilizado
 
