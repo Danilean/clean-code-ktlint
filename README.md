@@ -74,7 +74,30 @@ indentation:
 max_line_length:
   active: true
   value: 120
+
+trailing-comma-on-call-site:
+  active: true
+
+trailing-comma-on-declaration-site:
+  active: true
+
+no-wildcard-imports:
+  active: true
+
+final-newline:
+  active: true
+
+no-unused-imports:
+  active: true
+
+chain-wrapping:
+  active: true
+
+argument-list-wrapping:
+  active: true
+
 ```
+![img.png](img.png)
 
 ## 💻 Exemplo de Código a Ser Estilizado
 
