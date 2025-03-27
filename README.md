@@ -25,8 +25,8 @@
 
 Antes de instalar e usar o Ktlint, verifique se você possui os seguintes pré-requisitos no seu ambiente:
 
-- **Java 17** ou superior instalado.
-- **Gradle** (via Gradle Wrapper ou instalação global)
+- **Java 8** ou superior instalado.
+- **Gradle**
 
 ### Configuração Inicial
 
