@@ -15,12 +15,12 @@ dependencies {
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-    kotlinOptions.jvmTarget = "17" // Definindo o JVM target para Kotlin (pode ser 17 ou superior)
+    kotlinOptions.jvmTarget = "17"
 }
 
 tasks.withType<JavaCompile> {
     options.encoding = "UTF-8"
-    options.release.set(17) // Definindo o JVM target para Java (também 17 ou superior)
+    options.release.set(17)
 }
 
 tasks.test {
